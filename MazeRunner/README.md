@@ -1,4 +1,4 @@
-# 🧩 Maze Escape Game (Tkinter, Python)
+# 🧩 Maze Runner Game (Tkinter, Python)
 
 A simple maze game built using Python and Tkinter. Control the player with arrow keys, navigate through a maze, and reach the exit tile to win!
 
@@ -24,7 +24,10 @@ A simple maze game built using Python and Tkinter. Control the player with arrow
 
 ## 🖼️ Screenshot
 
-> *(Add a screenshot here of the game window if you have one)*
+![image](https://github.com/user-attachments/assets/edf6531e-5d3b-4bfe-a2fd-7e959d5a5bd6)
+![image](https://github.com/user-attachments/assets/33c36e6c-a8f0-48ed-b408-b9f18854463a)
+
+
 
 ---
 
