@@ -98,9 +98,9 @@ The player moves left/right using arrow keys and is bounded within the screen ed
 
 | Type             | Behavior            | Trigger (score) |
 |------------------|---------------------|-----------------|
-| Falling objects  | Predictable vertical drop | 0–11 points     |
-| Faster falling   | Quicker drop, more frequent | 12–29 points   |
-| Crazy objects    | Zigzag/random paths | 30+ points      |
+| Falling objects  | Predictable vertical drop | 0–25 points     |
+| Faster falling   | Quicker drop, more frequent | 25–60 points   |
+| Crazy objects    | Zigzag/random paths | 60+ points      |
 
 ### 💥 Collision Detection
 
@@ -153,7 +153,6 @@ flowchart TD
 
 ## 📸 Screenshots
 
-> *(Insert screenshots of the player dodging different objects here)*
 
 ---
 
@@ -175,6 +174,6 @@ This project is free for educational and non-commercial use. Attribution appreci
 
 ## 🙋‍♂️ Credits
 
-Developed by: [SURYANATH TRIPATHY]  
+Developed by: SURYANATH TRIPATHY  
 Assets from: [Kenney.nl](https://kenney.nl/assets), [OpenGameArt.org](https://opengameart.org/)  
 Built with: [Pygame](https://www.pygame.org/)
