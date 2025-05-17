@@ -57,8 +57,7 @@ dodge_the_chaos/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/dodge-the-chaos.git
-cd dodge-the-chaos
+[https://github.com/suryahj/PythonFiles.git]
 ```
 
 ### 2. Install Pygame
@@ -152,6 +151,7 @@ flowchart TD
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/998e5bf6-a811-4415-aa61-44ee399eb7f1)
 
 
 ---
