@@ -57,8 +57,7 @@ dodge_the_chaos/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/dodge-the-chaos.git
-cd dodge-the-chaos
+[https://github.com/suryahj/PythonFiles.git]
 ```
 
 ### 2. Install Pygame
@@ -98,9 +97,9 @@ The player moves left/right using arrow keys and is bounded within the screen ed
 
 | Type             | Behavior            | Trigger (score) |
 |------------------|---------------------|-----------------|
-| Falling objects  | Predictable vertical drop | 0–11 points     |
-| Faster falling   | Quicker drop, more frequent | 12–29 points   |
-| Crazy objects    | Zigzag/random paths | 30+ points      |
+| Falling objects  | Predictable vertical drop | 0–25 points     |
+| Faster falling   | Quicker drop, more frequent | 25–60 points   |
+| Crazy objects    | Zigzag/random paths | 60+ points      |
 
 ### 💥 Collision Detection
 
@@ -152,8 +151,8 @@ flowchart TD
 ---
 
 ## 📸 Screenshots
+![image](https://github.com/user-attachments/assets/998e5bf6-a811-4415-aa61-44ee399eb7f1)
 
-> *(Insert screenshots of the player dodging different objects here)*
 
 ---
 
@@ -175,6 +174,6 @@ This project is free for educational and non-commercial use. Attribution appreci
 
 ## 🙋‍♂️ Credits
 
-Developed by: [SURYANATH TRIPATHY]  
+Developed by: SURYANATH TRIPATHY  
 Assets from: [Kenney.nl](https://kenney.nl/assets), [OpenGameArt.org](https://opengameart.org/)  
 Built with: [Pygame](https://www.pygame.org/)
