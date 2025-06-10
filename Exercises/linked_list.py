@@ -75,11 +75,11 @@ class linked_list:
     
 
     def __str__(self):# return formatter of the class in a list structure 
-        curr=self.head
+        temp=self.head
         link_list_str=""
-        while curr!=None:
-            link_list_str=link_list_str+str(curr.data)+' -> '
-            curr=curr.next
+        while temp!=None:
+            link_list_str=link_list_str+str(temp.data)+' -> '
+            temp=temp.next
         return link_list_str
 
 
