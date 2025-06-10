@@ -9,6 +9,8 @@ class linked_list:
         self.head=None
         self.tail=None
 
+
+
     def insert_at_end(self,data):#insert data one by one at the end
         new_node=node(data)
         if self.head==None:
@@ -17,26 +19,28 @@ class linked_list:
         else:
             self.tail.next=new_node
             self.tail=new_node
+
+
     
     def insert(self,pos,data):# insert at any position 
         new_node=node(data)
+        if pos==0:
+            new_node.next=self.head
+            self.head=new_node
+            return
         curr=self.head
         i=0
-        prev=None
         while curr!=None:
-            if i==pos:
-                if prev==None:
-                    new_node.next=self.head
-                    self.head=new_node
-                else:
-                    prev.next=new_node
-                    new_node.next=curr
+            if i==(pos-1):
+                new_node.next=curr.next
+                curr.next=new_node
                 return
-            else:
-                prev = curr
-                curr=curr.next
-                i+=1
+            i+=1
+            curr=curr.next
+
         raise Exception("!!!Index Out of Range!!!") 
+    
+
     
     def pop(self,pos):#will pop a value and return it by default pops the end value
         curr=self.head
@@ -61,6 +65,12 @@ class linked_list:
         return cn_node
 
         
+    def print_rec(self,head2):
+        if head2.next==None:
+            return head2
+        else:
+            print(self.print_rec(head2.next).data)
+            return head2
             
     
 
@@ -91,6 +101,8 @@ if __name__=="__main__":
     print(l1.pop(2))
     print(l1)
     print(l1.lenl(l1.head))
+    print(l1.print_rec(l1.head))
+    print(l1.head)
 
 
 # head=None
