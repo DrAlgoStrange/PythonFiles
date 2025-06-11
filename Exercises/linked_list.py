@@ -59,10 +59,10 @@ class linked_list:
     
 
     def lenl(self,head1):# will return the length of the linked list
-        if head1==None:
-            return 0
-        cn_node=1+self.lenl(head1.next)
-        return cn_node
+        if head1.next==None:
+            return head1,1
+        head1.next,cn_node=self.lenl(head1.next)
+        return head1,cn_node+1
 
         
     def print_rec(self,head2):
@@ -81,13 +81,6 @@ class linked_list:
         while temp1!=None:
             link_list_str=link_list_str+str(temp1.data)+' -> '
             temp1=temp1.next
-=======
-        temp=self.head
-        link_list_str=""
-        while temp!=None:
-            link_list_str=link_list_str+str(temp.data)+' -> '
-            temp=temp.next
->>>>>>> d0ed45c0ade409b86027285b168cd445b6e0c4b3
         return link_list_str
 
 
@@ -108,7 +101,7 @@ if __name__=="__main__":
     print(l1)
     print(l1.pop(2))
     print(l1)
-    print(l1.lenl(l1.head))
+    print(l1.lenl(l1.head)[1])
     print(l1.print_rec(l1.head))
     print(l1.head)
 
