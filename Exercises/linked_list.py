@@ -75,6 +75,7 @@ class linked_list:
     
 
     def __str__(self):# return formatter of the class in a list structure 
+
         temp=self.head
         link_list_str=""
         while temp!=None:
