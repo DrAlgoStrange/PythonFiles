@@ -1,4 +1,4 @@
-from callable_ll import linked_list
+from Exercises.Advanced_DataStructures import linked_list
 l1=[1,2,3,4,5,6,7]
 l=linked_list()
 head= l.make_ll_from_l(l1)
