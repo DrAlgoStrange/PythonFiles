@@ -19,20 +19,6 @@ class linked_list:
                 self.tail=newnode
         return self.head
     
-    def remove_top(self):    #for stack implimentation of linked list 
-        self.head=self.head.next
-        return self.head
-
-    
-    def make_linkedlist_stack(self,data): #for stack implimentation of linked list
-        newnode=node(data)
-        if self.head==None:
-            self.head=newnode
-        else:
-            newnode.next=self.head
-            self.head=newnode
-        return self.head
-    
     def print_rec(self,head):
         if head==None:
             raise Exception ("!!No Data Found !!")
