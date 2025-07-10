@@ -34,31 +34,31 @@ class linked_list:
 
 class stack_LinkedList:
     def __init__(self):
-        self.top=None
-        self.size=0
+        self.__top=None
+        self.__size=0
 
     def push(self,data):
         newnode=node(data)
-        if self.top==None:
-            self.top=newnode
-            self.size+=1
+        if self.__top==None:
+            self.__top=newnode
+            self.__size+=1
         else:
-            newnode.next=self.top
-            self.top=newnode
-            self.size+=1
+            newnode.next=self.__top
+            self.__top=newnode
+            self.__size+=1
 
 
     def pop(self):
-        if self.top==None:
+        if self.__top==None:
             raise Exception("!!cannot pop from a empty Stack!!")
         else:
-            temp=self.top.data
-            self.top=self.top.next
-        self.size-=1
+            temp=self.__top.data
+            self.__top=self.__top.next
+        self.__size-=1
         return temp
 
     def peek(self):
-        return self.top.data
+        return self.__top.data
     
     def length(self):
-        return self.size
+        return self.__size
